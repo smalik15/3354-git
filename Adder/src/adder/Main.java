@@ -8,7 +8,9 @@ public class Main {
             System.out.println(result);
         } catch (Exception e) {
             System.err.println("Please provide two integers to add");
-        }
+        } catch (IllegalArgumentException e){
+	    System.err.println("Please provide a valid argument");
+	}
     }
 
     private static int addArguments(String[] args) {
