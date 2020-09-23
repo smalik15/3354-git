@@ -1,0 +1,6 @@
+a. After completing step 8, 4 commits exist in the repository history 
+b. The file .gitignore was added for the adder file as it is intentionally untracked and should be ignores by Git 
+c. git log shows commit logs and takes options to control what is shown and how it is shown. While git status shows the wholw working tree status. It shows differences between the working tree and index file including those not tracked/ignored by git.
+d. The difference between unstages and untracked files is that unstaged files have unstaged changes in the working directory before the changes have been committed and untracked files have changes that are not recorded by git yet.
+e. git reset is used to change the head and reset hunks. On the other hand, git checkout is used to switch branches and update the working tree to another index or specified tree. It will also update HEAD. Reset is used to undo staging and checkout is used to discard changes to unstaged files.
+f. If you try to pull remote changes when there are uncommitted files in your directory you will have to commit the changes first. You will be prompted to explain why a merge is neccessary when using pull like this. 
